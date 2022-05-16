@@ -69,3 +69,7 @@ def signup_view(request):
         return render(request, "users/login.html")
 
     return render(request, "users/signup.html")
+
+
+def update_profile_view(request):
+    return render(request, "users/update_profile.html")
